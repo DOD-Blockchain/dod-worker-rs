@@ -22,6 +22,11 @@ You can run multiple workers under the same `MINER_ID`.
 
 Please also set the clock on your machine properly, because the worker depends on it for work submission.
 
+### public mining pool
+```
+cargo run --features gpu -- 45.76.7.210 --miner-id $principal_id
+```
+
 **Protocol**
 
 This part is technical detail, and only useful if you are building a mining pool.
