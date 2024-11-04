@@ -24,7 +24,7 @@ Please also set the clock on your machine properly, because the worker depends o
 
 ### public mining pool
 ```
-cargo run --features gpu -- 45.76.7.210 --miner-id $principal_id
+cargo run --features gpu --release -- 45.76.7.210 --miner-id $principal_id
 ```
 
 **Protocol**
