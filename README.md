@@ -26,6 +26,8 @@ Please also set the clock on your machine properly, because the worker depends o
 ```
 cargo run --features gpu --release -- 45.76.7.210 --miner-id $principal_id
 ```
+**Mining Pool with Dashboard**
+https://dod.miga-icp.xyz/
 
 **Protocol**
 
